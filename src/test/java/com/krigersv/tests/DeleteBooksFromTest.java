@@ -51,7 +51,7 @@ public class DeleteBooksFromTest extends TestBase {
             profilePage.openProfile();
         });
 
-        step("Проверка удаленной из списка книги", () -> {
+        step("Проверка удаленной книги", () -> {
             profilePage.checkTable();
         });
     }
